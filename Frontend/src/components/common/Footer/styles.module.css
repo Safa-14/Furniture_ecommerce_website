@@ -1,0 +1,119 @@
+/* .footerContainer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid black;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.footer {
+    background-color: #efe5d5; /* Matching the light beige from the navbar */
+    color: #333333; /* Dark text for readability */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-top: auto;
+    text-align: center;
+    padding: 10px 0;
+    /* border-top: 1px solid black; */
+  }
+  
+  .footer_content {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-link:hover a{
+    color: black;
+  }
+
+  .footer_section {
+    margin-top: auto;
+    text-align: center;
+    /* flex: 1; */
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer_section h3 {
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .footer_section p,
+  .footer_section .nav_links,
+  .social_media {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+/*   
+  .footer_section .nav_links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer_section .nav_links {
+    margin-bottom: 8px;
+  }
+  
+  .footer_section .nav_links {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.3s;
+  }
+  
+  .footer_section ul li a:hover {
+    color: #6a6a6a;
+  }
+   */
+  /* .social_media {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+  } */
+/*   
+  .social_media a {
+    color: #333333;
+    transition: color 0.3s;
+  }
+  
+  .social_media a:hover {
+    color: #6a6a6a;
+  }
+ */
+  .footer_bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    font-size: 14px;
+    color: #6a6a6a;
+  }
+  
+
+   .style_navbar>div {
+    flex-direction: column;
+}
+
+.style_navbar>div>a {
+    color: #6a6a6a;
+  font-weight: 500;
+}
+.style_navbar>div>a:hover {
+    color: #333;
+    /* transform: scale(1.2); Slightly enlarges icon on hover */
+}
+
+.style_logo a{
+    text-transform: uppercase;
+    margin: 30px 0 ;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}

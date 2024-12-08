@@ -1,0 +1,37 @@
+.sidenav_container{
+    width: 250px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    min-height: 100vh;
+}
+
+.filterSection {
+    margin-bottom: 20px;
+}
+.filterSection h4 {
+    margin-bottom: 10px;
+  }
+  
+  .filterSection label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .saveFiltersChangesButton,
+  .clearFiltersButton {
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .saveFiltersChangesButton:hover,
+  .clearFiltersButton:hover {
+    background-color: #ff4d4d;
+  }

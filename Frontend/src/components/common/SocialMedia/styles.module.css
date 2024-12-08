@@ -1,0 +1,19 @@
+.social_media {
+    display: flex;
+    justify-content: center; /* Center-aligns icons */
+    gap: 15px; /* Adds space between icons */
+    font-size: 20px; /* Increases icon size */
+    margin-top: 10px;
+}
+
+.social_media a {
+    color: #6a6a6a;
+  font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.social_media a:hover {
+    color: #333;
+    transform: scale(1.2); /* Slightly enlarges icon on hover */
+}
